@@ -1,0 +1,106 @@
+.jam1{
+    background: url("../images/liberty_city1.jpg") no-repeat;
+    background-size: 100%,40%; 
+    /*background-color: #ffffff;*/
+    background-position: absolute;
+}
+
+
+.top{
+    height: 25px;
+    font-size: 15px;
+    font-color:gray;
+    
+}
+.top span{
+    margin-left: 1100px;
+}
+.clear-space{
+    font-size: 16px;
+}
+.it{
+    display: inline-table;
+    vertical-align: top;
+}
+.nav-menu{
+    padding-top: 50px;
+    height:400px;
+    weight:1000px;
+    margin: 50px;
+    background-color: red;
+}
+.it{
+    height:300px;
+    weight:400px;
+    margin: 10px;
+    font-size:23px;
+    font-family: sans-serif;
+    background-color: rgba(rgb(9, 105, 13), green, blue, alpha);
+    color:rgb(9, 105, 150);
+}
+
+/*
+.nav-menu {
+    color: white;
+    background-color: rgb(28, 134, 81);
+  
+    padding: 0;
+  }
+  
+  .nav-menu nav, .nav-menu nav > ul, .nav-menu nav > ul > li {
+    padding: 0;
+    height: 45px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+  }
+  
+  .nav-menu nav > ul > li {
+    width: 8%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .nav-menu li li {
+    text-align: left;
+  }
+  
+  .nav-menu nav > ul > li:nth-child(1) {
+    width: 12%;
+  }
+  
+  .nav-menu ul ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 15px;
+  }
+  
+  .nav-menu ul li:hover {
+    background-color: rgb(4, 92, 29);
+  }
+  
+  .nav-menu ul li:hover ul {
+    display: block;
+  }
+  
+  .nav-menu ul ul li {
+    width: 100%;
+    color: black;
+    background: white;
+    height: 70px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+  
+  .nav-menu li li div {
+    padding: 5px;
+  }
+  .nav-menu li li div:first-child {
+    font-size: 16px;
+  }
+  .nav-menu li li div:last-child {
+    color: rgb(200, 200, 200);
+  }
+  */
