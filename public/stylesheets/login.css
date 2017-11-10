@@ -8,11 +8,15 @@
 .master{
     background-color: rgba(255, 255, 255, 0.548);
     width:1200px;
-    height: 800px;
+    height: 400px;
     margin-left: 100px;
     margin-right:100px;
     margin-top: 50px;
+    margin-bottom: 60px;
     /*opacity: 0.9; */
+    overflow: hidden;
+    border: solid;
+    border-color: green;
 }
 
 .Input{
@@ -23,3 +27,21 @@
     border-radius: 5px;
 
   }
+.log{
+    border-color: red;
+    text-align: center;
+    border-style: solid;
+
+}
+#login{
+    border-color: brown;
+    border:solid;
+    height:400px;
+    width: 800px;
+}
+#signup{
+    border-color: yellow;
+    border:solid;
+    height:400px;
+    width: 800px;
+}
