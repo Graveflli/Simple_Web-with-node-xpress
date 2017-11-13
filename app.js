@@ -8,6 +8,9 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+var login = require('./routes/Login');
+var signup = require('./routes/Signup');
+var user_index = require('./routes/user_index');
 
 var tiatst = require('./routes/tiatst');
 var birds = require('./routes/birds');
@@ -32,6 +35,17 @@ app.use('/users', users);
 
 app.use('/wa',tiatst);
 app.use('/birds',birds);
+
+app.use('/login',login);
+app.use('/signup',signup);
+
+app.use('/user_index',user_index);
+
+
+
+
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
